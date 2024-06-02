@@ -19,6 +19,7 @@ def hhh():
         f(i, hh)
         for eee in pygame.event.get():
             if eee.type == QUIT or (eee.type == KEYUP and eee.key == K_ESCAPE):
+                
                 pygame.quit()
                 sys.exit()
             elif eee.type == MOUSEMOTION:
